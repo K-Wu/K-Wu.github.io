@@ -8,17 +8,17 @@ profile:
   align: right
   image: prof_pic.jpg
   address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>227 Coordinated Science Laboratory</p>
+    <p>1308 W Main St</p>
+    <p>Urbana, IL 61801</p>
 
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Kun is currently a third-year Ph.D. student at UIUC, advised by Prof. Wen-mei Hwu. His research interest lies in compilers and libraries for graphic-processing units and parallel computer architecture.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+Kun received his bachelor's degree (with distinction) in Electronic Engineering from Tsinghua University. Before that, as a senior undergraduate, he published one first-authored paper in Design Automation Conference under the supervision of Prof. Yuan Xie and Prof. Yu Wang. He took software engineering internship at Microsoft Research Asia for six months.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Want a talk with me? Feel free to send me an email :D My availability can be queried at [published Outlook calendar](https://outlook.office365.com/calendar/published/92e7b86fb04446e6845888477b264fa8@illinois.edu/30a2e22ab4254515a138626eb10c5cca1829245686022576514/calendar.html).
