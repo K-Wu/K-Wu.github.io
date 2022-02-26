@@ -23,7 +23,7 @@
           <div class="author">
           {%- for author in entry.author_array -%}
             {%- assign author_is_self = false -%}
-            {%- if author.last == site.scholar.last_name%}
+            {%- if site.scholar.last_name contains author.last %}
               {%- if site.scholar.first_name contains author.first -%}
                 {%- assign author_is_self = true -%}
               {%- endif -%}

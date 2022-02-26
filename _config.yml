@@ -205,7 +205,7 @@ jekyll-archives:
 
 scholar:
 
-  last_name: Wu
+  last_name: [Wu, Wu*]
   first_name: [Kun, K., Kun*]
 
   style: apa
