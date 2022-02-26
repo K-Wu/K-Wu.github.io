@@ -102,6 +102,12 @@
           {%- if entry.html %}
             <a href="{{ entry.html }}" class="btn btn-sm z-depth-0" role="button">HTML</a>
           {%- endif %}
+          {%- if entry.paperlink %}
+            <a href="{{ entry.paperlink }}" class="btn btn-sm z-depth-0" role="button">Paper</a>
+          {%- endif %}
+          {%- if entry.codelink %}
+            <a href="{{ entry.codelink }}" class="btn btn-sm z-depth-0" role="button">Code</a>
+          {%- endif %}
           {%- if entry.pdf %}
             {% if entry.pdf contains '://' -%}
             <a href="{{ entry.pdf }}" class="btn btn-sm z-depth-0" role="button">PDF</a>
