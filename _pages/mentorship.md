@@ -2,7 +2,7 @@
 layout: page
 permalink: /mentorship/
 title: Mentorship
-description: Under construction.
+description: Projects and collaborations were definitely the major drive for excellence during my undergrad.
 nav: true
 ---
 
