@@ -18,7 +18,7 @@ social: true  # includes social icons at the bottom of the page
 ---
 
 
-Kun Wu is currently a third-year Ph.D. student at UIUC, advised by [Prof. Wen-mei Hwu](https://en.wikipedia.org/wiki/Wen-mei_Hwu). His research interest lies in compilers and libraries for graphic-processing units and parallel computer architecture. He has contributed to seversal impactful projects, involving [PyTorch-Direct](https://github.com/K-Wu/pytorch-direct_dgl) and [Pylog](https://github.com/hst10/pylog).
+Kun Wu is currently a third-year Ph.D. student at UIUC, advised by [Prof. Wen-mei Hwu](https://en.wikipedia.org/wiki/Wen-mei_Hwu). His research interest lies in compilers and libraries for graphic-processing units and parallel computer architecture. He has contributed to several impactful projects, involving [PyTorch-Direct](https://github.com/K-Wu/pytorch-direct_dgl) and [Pylog](https://github.com/hst10/pylog).
 
 Kun received his bachelor's degree (with distinction) in Electronic Engineering from Tsinghua University. Before that, as a senior undergraduate, he published one first-authored paper in Design Automation Conference under the supervision of [Prof. Yuan Xie](https://web.ece.ucsb.edu/~yuanxie/Personal.html) and [Prof. Yu Wang](http://nics.ee.tsinghua.edu.cn/people/wangyu/). He took software engineering internship at Microsoft Research Asia for six months.
 

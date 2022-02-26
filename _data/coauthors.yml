@@ -25,3 +25,7 @@
 'Korolija':
   - firstname: ["Dario", "D."]
     url: https://scholar.google.com/citations?user=ZPp74LEAAAAJ&hl=en
+
+'Korolija*':
+  - firstname: ["Dario", "D."]
+    url: https://scholar.google.com/citations?user=ZPp74LEAAAAJ&hl=en
