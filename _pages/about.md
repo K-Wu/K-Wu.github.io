@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: <span class="tooltip">pronunciation<span class="tooltiptext">Chinese: 吴昆<br />English approximation: KUUN WOO<br />This pop-up is inspired by Wenhao Qi's personal website.</span></span>
+subtitle: 
 
 profile:
   align: right
