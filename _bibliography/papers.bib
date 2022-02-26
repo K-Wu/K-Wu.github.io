@@ -3,70 +3,108 @@
 
 @string{aps = {American Physical Society,}}
 
-@book{einstein1956investigations,
-  bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation,}
+@misc{min2021graph,
+      title={Graph Neural Network Training with Data Tiering}, 
+      author={Seung Won Min and Kun Wu and Mert Hidayetoğlu and Jinjun Xiong and Xiang Song and Wen-mei Hwu},
+      year={2021},
+      html={https://arxiv.org/abs/2111.05894},
+      eprint={2111.05894},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      selected={true}
 }
 
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics,},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers,}
+@ARTICLE{9591456,
+  author={Huang, Sitao and Wu, Kun and Jeong, Hyunmin and Wang, Chengyue and Chen, Deming and Hwu, Wen-Mei},
+  journal={IEEE Transactions on Computers}, 
+  title={PyLog: An Algorithm-Centric Python-Based FPGA Programming and Synthesis Flow}, 
+  html={https://ieeexplore.ieee.org/abstract/document/9591456}
+  year={2021},
+  volume={70},
+  number={12},
+  pages={2015-2028},
+  doi={10.1109/TC.2021.3123465},
+  selected={true}}
+
+
+@article{10.14778/3476249.3476264,
+author = {Min, Seung Won and Wu, Kun and Huang, Sitao and Hidayeto\u{g}lu, Mert and Xiong, Jinjun and Ebrahimi, Eiman and Chen, Deming and Hwu, Wen-mei},
+title = {Large Graph Convolutional Network Training with GPU-Oriented Data Communication Architecture},
+year = {2021},
+issue_date = {July 2021},
+publisher = {VLDB Endowment},
+volume = {14},
+number = {11},
+issn = {2150-8097},
+url = {https://doi.org/10.14778/3476249.3476264},
+html = {https://doi.org/10.14778/3476249.3476264},
+doi = {10.14778/3476249.3476264},
+abstract = {Graph Convolutional Networks (GCNs) are increasingly adopted in large-scale graph-based recommender systems. Training GCN requires the minibatch generator traversing graphs and sampling the sparsely located neighboring nodes to obtain their features. Since real-world graphs often exceed the capacity of GPU memory, current GCN training systems keep the feature table in host memory and rely on the CPU to collect sparse features before sending them to the GPUs. This approach, however, puts tremendous pressure on host memory bandwidth and the CPU. This is because the CPU needs to (1) read sparse features from memory, (2) write features into memory as a dense format, and (3) transfer the features from memory to the GPUs.In this work, we propose a novel GPU-oriented data communication approach for GCN training, where GPU threads directly access sparse features in host memory through zero-copy accesses without much CPU help. By removing the CPU gathering stage, our method significantly reduces the consumption of the host resources and data access latency. We further present two important techniques to achieve high host memory access efficiency by the GPU: (1) automatic data access address alignment to maximize PCIe packet efficiency, and (2) asynchronous zero-copy access and kernel execution to fully overlap data transfer with training. We incorporate our method into PyTorch and evaluate its effectiveness using several graphs with sizes up to 111 million nodes and 1.6 billion edges. In a multi-GPU training setup, our method is 65--92% faster than the conventional data transfer method, and can even match the performance of all-in-GPU-memory training for some graphs that fit in GPU memory.},
+journal = {Proc. VLDB Endow.},
+month = {jul},
+pages = {2087–2100},
+numpages = {14},
+selected={true}
 }
 
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein, A. and Podolsky, B. and Rosen, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.,},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  selected={true}
+@misc{min2021pytorchdirect,
+      title={PyTorch-Direct: Enabling GPU Centric Data Access for Very Large Graph Neural Network Training with Irregular Accesses}, 
+      author={Seung Won Min and Kun Wu and Sitao Huang and Mert Hidayetoğlu and Jinjun Xiong and Eiman Ebrahimi and Deming Chen and Wen-mei Hwu},
+      year={2021},
+      html={https://arxiv.org/abs/2101.07956},
+      eprint={2101.07956},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      selected={true}
 }
 
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik,},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
+@INPROCEEDINGS{9651170,
+  author={Huang, Sitao and Wu, Kun and Chalamalasetti, Sai Rahul and El Hajj, Izzat and Xu, Cong and Faraboschi, Paolo and Chen, Deming},
+  booktitle={2021 IEEE/ACM Programming Environments for Heterogeneous Computing (PEHC)}, 
+  title={A Python-based High-Level Programming Flow for CPU-FPGA Heterogeneous Systems : (Invited Paper)}, 
+  year={2021},
+  html={https://ieeexplore.ieee.org/abstract/document/9651170},
+  volume={},
+  number={},
+  pages={20-26},
+  doi={10.1109/PEHC54839.2021.00008}}
+
+@inproceedings{10.1145/3431379.3460645,
+author = {Pearson, Carl and Wu, Kun and Chung, I-Hsin and Xiong, Jinjun and Hwu, Wen-Mei},
+title = {TEMPI: An Interposed MPI Library with a Canonical Representation of CUDA-Aware Datatypes},
+year = {2021},
+isbn = {9781450382175},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3431379.3460645},
+html = {https://doi.org/10.1145/3431379.3460645},
+doi = {10.1145/3431379.3460645},
+abstract = {MPI derived datatypes are an abstraction that simplifies handling of non-contiguous data in MPI applications. These datatypes are recursively constructed at runtime from primitive Named Types defined in the MPI standard. More recently, the development and deployment of CUDA-aware MPI implementations has encouraged the transition of distributed high-performance MPI codes to use GPUs. Such implementations allow MPI functions to directly operate on GPU buffers, easing integration of GPU compute into MPI codes. This work first presents a novel datatype handling strategy for nested strided datatypes, which finds a middle ground between the specialized or generic handling in prior work. This work also shows that the performance characteristics of non-contiguous data handling can be modeled with empirical system measurements, and used to transparently improve MPI_Send/Recv latency. Finally, despite substantial attention to non-contiguous GPU data and CUDA-aware MPI implementations, good performance cannot be taken for granted. This work demonstrates its contributions through an MPI interposer library, TEMPI. TEMPI can be used with existing MPI deployments without system or application changes. Ultimately, the interposed-library model of this work demonstrates MPI_Pack speedup of up to 242000x and MPI_Send speedup of up to 59000x compared to the MPI implementation deployed on a leadership-class supercomputer. This yields speedup of more than 917x in a 3D halo exchange with 3072 processes.},
+booktitle = {Proceedings of the 30th International Symposium on High-Performance Parallel and Distributed Computing},
+pages = {95–106},
+numpages = {12},
+keywords = {summit, cuda, derived datatype, spectrum mpi, mpi},
+location = {Virtual Event, Sweden},
+series = {HPDC '21},
+selected={true}
 }
 
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.,},
-  volume={17},
-  pages={549--560},
-  year={1905}
+@inproceedings{10.1145/3316781.3317862,
+author = {Wu, Kun and Dai, Guohao and Hu, Xing and Li, Shuangchen and Xie, Xinfeng and Wang, Yu and Xie, Yuan},
+title = {Memory-Bound Proof-of-Work Acceleration for Blockchain Applications},
+year = {2019},
+isbn = {9781450367257},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3316781.3317862},
+doi = {10.1145/3316781.3317862},
+abstract = {Blockchain applications have shown huge potential in various domains. Proof of Work (PoW) is the key procedure in blockchain applications, which exhibits the memory-bound characteristic and hinders the performance improvement of blockchain accelerators. In order to mitigate the "memory wall" and improve the performance of memory-hard PoW accelerators, using Ethash as an example, we optimize the memory architecture from two perspectives: 1) Hiding memory latency. We propose specialized context switch design to overcome the uncertain cycles of repetitive memory requests. 2) Increasing memory bandwidth utilization. We introduce on-chip memory that stores a portion of the Ethash directed acyclic graph (DAG) for larger effective memory bandwidth, and further propose adopting embedded NOR flash to fulfill the role. Then, we conduct extensive experiments to explore the design space of our optimized memory architecture for Ethash, including number of hash cores, on-chip/off-chip memory technologies and specifications. Based on the design space exploration, we finally provide the guidance for designing the memory-bound PoW accelerator. The experiment results show that our optimized designs achieve 8.7% -- 55% higher hash rate and 17% -- 120% higher hash rate per Joule compared with the baseline design in different configurations.},
+booktitle = {Proceedings of the 56th Annual Design Automation Conference 2019},
+articleno = {177},
+numpages = {6},
+location = {Las Vegas, NV, USA},
+series = {DAC '19},
+selected={true}
 }
 
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
-}
+  
