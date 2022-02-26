@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: <span class="tooltip">pronunciation<span class="tooltiptext">Chinese: 吴昆<br />English approximation: KUUN WOO<br />This pop-up is inspired by Wenhao Qi's personal website.</span></span>
 
 profile:
   align: right
@@ -17,7 +17,8 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Kun is currently a third-year Ph.D. student at UIUC, advised by Prof. Wen-mei Hwu. His research interest lies in compilers and libraries for graphic-processing units and parallel computer architecture.
+
+Kun Wu is currently a third-year Ph.D. student at UIUC, advised by Prof. Wen-mei Hwu. His research interest lies in compilers and libraries for graphic-processing units and parallel computer architecture.
 
 Kun received his bachelor's degree (with distinction) in Electronic Engineering from Tsinghua University. Before that, as a senior undergraduate, he published one first-authored paper in Design Automation Conference under the supervision of Prof. Yuan Xie and Prof. Yu Wang. He took software engineering internship at Microsoft Research Asia for six months.
 
