@@ -206,7 +206,7 @@ jekyll-archives:
 scholar:
 
   last_name: Wu
-  first_name: [Kun, K.]
+  first_name: [Kun, K., Kun*]
 
   style: apa
   locale: en
