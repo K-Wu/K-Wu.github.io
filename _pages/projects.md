@@ -5,7 +5,7 @@ permalink: /projects/
 description: Under construction. A select collection of my research and intern projects.
 nav: true
 display_categories: [research, intern]
-horizontal: false
+horizontal: true
 ---
 
 <!-- pages/projects.md -->
