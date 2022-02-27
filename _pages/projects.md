@@ -2,9 +2,9 @@
 layout: page
 title: Projects
 permalink: /projects/
-description: Under construction. A select collection of my research and internship projects.
+description: Under construction. A select collection of my research and intern projects.
 nav: true
-display_categories: [research, internship]
+display_categories: [research, intern]
 horizontal: false
 ---
 
