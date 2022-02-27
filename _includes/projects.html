@@ -2,21 +2,24 @@
 <div class="grid-sizer"></div>
 <div class="grid-item">
   {%- if project.enable_hyperlink -%}
-  {% if project.redirect -%}
-  <a href="{{ project.redirect }}">
+    {% if project.redirect -%}
+      <a href="{{ project.redirect }}">
     {%- else -%}
-    <a href="{{ project.url | relative_url }}">
-      {%- endif %}
-      <div class="card hoverable">
-        {%- if project.img %}
-        {%- include figure.html
-          path=project.img
-          alt="project thumbnail" -%}
-        {%- endif %}
-        {%- endif %}
+      <a href="{{ project.url | relative_url }}">
+    {%- endif %}
+  {%- else -%}
+    <a>
+  {%- endif %}
+        <div class="card hoverable">
+          {%- if project.img %}
+          {%- include figure.html
+            path=project.img
+            alt="project thumbnail" -%}
+          {%- endif %}
+    
         <div class="card-body">
-          <h2 class="card-title text-lowercase">{{ project.title }}</h2>
-          <p class="card-text">{{ project.description }}</p>
+          <h2 class="card-title">{{ project.title }}</h2>
+          <p class="card-text" style="white-space: pre-wrap;">{{ project.description }}</p>
           <div class="row ml-1 mr-1 p-0">
             {%- if project.github -%}
             <div class="github-icon">
