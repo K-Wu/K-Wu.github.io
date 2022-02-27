@@ -8,6 +8,6 @@ description: |
  · Enabling high-level, algorithm-centric Python programming and synthesis flow for FPGA.
  · Developing optimization and design space exploration mechanisms.
  · Developing language constructs to embody FPGA interconnection concepts.
-importance: 3
+importance: 1
 category: research
 ---

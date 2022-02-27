@@ -2,7 +2,7 @@
 layout: page
 title: Projects
 permalink: /projects/
-description: A select collection of my research and intern projects.
+description: A select collection of my research and intern projects in reverse chronological order.
 nav: true
 display_categories: [research, intern]
 horizontal: false
