@@ -19,6 +19,9 @@
         {%- else %}
           <!-- Title -->
           <div class="title">{{entry.title}}</div>
+          {% if entry.acceptance_rate -%}
+          <div class="acceptance_rate"><em>acceptance rate: {{entry.acceptance_rate}}%</em></div>
+          {%- endif -%}
           <!-- Author -->
           <div class="author">
           {%- for author in entry.author_array -%}
