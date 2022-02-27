@@ -12,10 +12,8 @@
       <div class="row g-0">
         {%- if project.img -%}
         <div class="card-img col-md-6">
-          {% responsive_image_block %}
             path: {{ project.img }}
             alt: "project thumbnail"
-          {% endresponsive_image_block %}
         </div>
         <div class="col-md-6">
         {%- else -%}
