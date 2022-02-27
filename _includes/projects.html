@@ -19,7 +19,7 @@
         <h4 class="card-title">{{ project.title }}</h4>
         <p class="card-text" style="white-space: pre-wrap;">{{ project.description }}</p>
         {%- if project.first_author_link -%}
-        <a href="{{project.first_author_link}}" class="card-text" style="color: var(--global-theme-color);">Go to first author's page to learn more.</a>
+        <a href="{{project.first_author_link}}" class="card-text">Go to first author's page to learn more.</a>
         {%- endif %}
         <div class="row ml-1 mr-1 p-0">
           {%- if project.github -%}
