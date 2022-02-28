@@ -8,7 +8,7 @@ nav: true
 
 I am looking for motivated undergrads to work with on several compilers and libraries projects. If you are interested, please contact me.
 
-### Why seeking mentorship / undergrad research experience?
+#### Why seeking mentorship / undergrad research experience?
 
 Here is a non-exhaustive list of benefits I can imagine that you may gain.
 
@@ -19,10 +19,11 @@ Here is a non-exhaustive list of benefits I can imagine that you may gain.
 - Exchange ideas and learn from your mentor and other collaborators
 - Get advice from your senior peers applying to grad school, coursework, or anything
 - Gain advice and recognition from active professors and/or full-time researchers in the projects
+- Learn about the eminent concerns and vision companies, e.g., HPE, Amazon, etc., in our collaborations have
 
 From my side, when seeking to become a mentor, I expect the following benefits.
 
-- Exchange ideas; improve thinking and thoughts on my projects through discussing and advocating.
+- Exchange ideas; improve thinking and thoughts on my projects through discussing and advocating
     - Even learning by teaching is more effective than learning by oneself.
 - Get some manpower while my advisor is not admitting new graduate students
 - Joyfulness when tutoring my younger peers
