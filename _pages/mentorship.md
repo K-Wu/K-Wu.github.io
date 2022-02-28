@@ -19,7 +19,7 @@ Here is a non-exhaustive list of benefits I can imagine that you may gain.
 - Exchange ideas and learn from your mentor and other collaborators
 - Get advice from your senior peers applying to grad school, coursework, or anything
 - Gain advice and recognition from active professors and/or full-time researchers in the projects
-- Learn about the eminent concerns and vision companies, e.g., HPE, Amazon, etc., in our collaborations have
+- Learn about the eminent concerns and vision companies in our collaborations, e.g., HPE, Amazon, etc., have
 
 From my side, when seeking to become a mentor, I expect the following benefits.
 
