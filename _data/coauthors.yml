@@ -29,3 +29,11 @@
 'Korolija*':
   - firstname: ["Dario", "D."]
     url: https://scholar.google.com/citations?user=ZPp74LEAAAAJ&hl=en
+
+'Hidayetoğlu':
+  - firstname: ["Mert", "M."]
+    url: https://merthidayetoglu.github.io/
+
+'Xie':
+  - firstname: ["X", "Xinfeng"]
+    url: https://seal.ece.ucsb.edu/people/xinfeng-xie
