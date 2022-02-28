@@ -12,10 +12,10 @@ I am looking for motivated undergrads to work with on several compilers and libr
 
 Here is a non-exhaustive list of benefits I can imagine that you may gain.
 
-- Enhance engineering skillsets by solving real problems, which is the most effective way
+- Develop engineering skillsets by solving real problems, which is the most effective way
 - Check whether a research career or an engineering career better fits you
 - Check whether this direction is what you desire most to pursue in your career
-    - Remember that your work is non-binding. It is reasonable and not uncommon for an undergrad to try several directions to define his career. 
+    - Remember that your work is non-binding. It is reasonable and not uncommon for an undergrad to try several directions to determine which to pursue in his career. 
 - Exchange ideas and learn from your mentor and other collaborators
 - Get advice from your senior peers applying to grad school, coursework, or anything
 - Gain advice and recognition from active professors and/or full-time researchers in the projects
