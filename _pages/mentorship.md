@@ -6,9 +6,11 @@ description: Projects and collaborations were definitely the major drive for exc
 nav: true
 ---
 
-I am looking for motivated undergrads to work with on several compilers and libraries projects. If you are interested, please contact me.
+I am looking for motivated undergrads to work with on several compilers and libraries projects. If you are interested, please contact me. The potential topics involve CUDA code generation and optimization, CUDA kernel development and tuning especially for graph neural network models.
 
 #### Why seeking mentorship / undergrad research experience?
+ 
+Before my elaboration here, I recommend you reading the  [prospective student](http://impact.crhc.illinois.edu/prospective%20student.aspx) page on our group site. It gives great discussion on critical points such as why pursing graduate studies and what a student could expect to develop for their career.
 
 Here is a non-exhaustive list of benefits I can imagine that you may gain.
 
