@@ -6,7 +6,7 @@ description: Projects and collaborations were definitely the major drive for exc
 nav: true
 ---
 
-**Latest**: I am selected as [UIUC Undergraduate Research Apprenticeship Program (URAP)](https://grad.illinois.edu/urap) mentors for Fall 2022. Please consider applying for this opportunity!
+**Latest**: I am selected as one of the [UIUC Undergraduate Research Apprenticeship Program (URAP)](https://grad.illinois.edu/urap) mentors for Fall 2022. Please consider applying for this opportunity!
 
 I am looking for motivated undergrads to work with on several compilers and libraries projects. If you are interested, please contact me. The potential topics involve CUDA code generation and optimization, CUDA kernel development and tuning especially for graph neural network models.
 
