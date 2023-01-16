@@ -6,7 +6,7 @@ title: Kun Wu # the website title (if blank, full name will be used instead)
 first_name: Kun
 middle_name: 
 last_name: Wu
-email: kunwu2@illinois.com
+email: kunwu2@illinois.edu
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Kun's simple personal website. Based on [*folio](https://github.com/bogoli/-folio) design.
 footer_text: >
