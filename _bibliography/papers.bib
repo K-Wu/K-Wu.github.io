@@ -3,6 +3,15 @@
 
 @string{aps = {American Physical Society,}}
 
+@inproceedings{pigeon,
+      title={PIGEON: Optimizing CUDA Code Generator for End-to-End Training and Inference of Relational Graph Neural Networks}, 
+      author={Kun Wu and Mert Hidayetoğlu and Xiang Song and Sitao Huang and Da Zheng and Israt Nisa and Wen-mei Hwu},
+      year={2022},
+      booktitle={arXiv preprint releasing this Wednesday},
+      primaryClass={cs.DC},
+      selected={true}
+}
+
 @inproceedings{min2021graph,
       title={Graph Neural Network Training with Data Tiering}, 
       booktitle={SIGKDD International Conference on Knowledge Discovery and Data Mining},
@@ -18,7 +27,7 @@ author = {Wu*, Kun and Korolija*, Dario and Hwu,Wen-mei and Alonso, Gustavo and 
 title = {SaintSN: Streamlined and Intelligent Storage Node System-on-a-Chip for Exascale Cluster},
 year = {2022},
 booktitle = {Proceedings of the Hewlett Packard Enterprise Technical Conference},
-acceptance_rate = {17.6},
+my_note = {Acceptance rate: 17.6. Pending US patent.},
 series = {HPE TechCon '22},
 selected={true}
 }
@@ -49,6 +58,7 @@ number = {11},
 issn = {2150-8097},
 url = {https://doi.org/10.14778/3476249.3476264},
 paperlink = {https://doi.org/10.14778/3476249.3476264},
+my_note = {upstreamed to DGL},
 doi = {10.14778/3476249.3476264},
 abstract = {Graph Convolutional Networks (GCNs) are increasingly adopted in large-scale graph-based recommender systems. Training GCN requires the minibatch generator traversing graphs and sampling the sparsely located neighboring nodes to obtain their features. Since real-world graphs often exceed the capacity of GPU memory, current GCN training systems keep the feature table in host memory and rely on the CPU to collect sparse features before sending them to the GPUs. This approach, however, puts tremendous pressure on host memory bandwidth and the CPU. This is because the CPU needs to (1) read sparse features from memory, (2) write features into memory as a dense format, and (3) transfer the features from memory to the GPUs.In this work, we propose a novel GPU-oriented data communication approach for GCN training, where GPU threads directly access sparse features in host memory through zero-copy accesses without much CPU help. By removing the CPU gathering stage, our method significantly reduces the consumption of the host resources and data access latency. We further present two important techniques to achieve high host memory access efficiency by the GPU: (1) automatic data access address alignment to maximize PCIe packet efficiency, and (2) asynchronous zero-copy access and kernel execution to fully overlap data transfer with training. We incorporate our method into PyTorch and evaluate its effectiveness using several graphs with sizes up to 111 million nodes and 1.6 billion edges. In a multi-GPU training setup, our method is 65--92% faster than the conventional data transfer method, and can even match the performance of all-in-GPU-memory training for some graphs that fit in GPU memory.},
 journal = {Proceedings of the VLDB Endowment},

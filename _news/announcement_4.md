@@ -1,8 +1,7 @@
 ---
 layout: post
-date: 2022-03-01
+date: 2022-11-30
 inline: true
 ---
 
-Techniques proposed in our [Pytorch-Direct](https://github.com/K-Wu/pytorch-direct_dgl) project is now available in DGL v0.8! Please check the CUDA UVA-based optimization in the [release note](https://github.com/dmlc/dgl/releases/tag/0.8.0).
-
+We filed a patent application to USPTO earlier this month for the idea conceived during HPE Internship in Summer 2021!

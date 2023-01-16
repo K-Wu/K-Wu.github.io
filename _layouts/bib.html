@@ -10,8 +10,8 @@
         {%- else %}
           <!-- Title -->
           <div class="title">{{entry.title}}</div>
-          {% if entry.acceptance_rate -%}
-          <div class="acceptance_rate"><em>acceptance rate: {{entry.acceptance_rate}}%</em></div>
+          {% if entry.my_note -%}
+          <div class="my_note"><em>{{entry.my_note}}%</em></div>
           {%- endif -%}
           <!-- Author -->
           <div class="author">
@@ -66,9 +66,9 @@
 
           <!-- Journal/Book title and date -->
           {% if entry.type == "article" -%}
-            {%- capture entrytype -%}<em>{{entry.journal}}</em>{%- endcapture -%}
+            {%- capture entrytype -%}{{entry.journal}}{%- endcapture -%}
           {%- elsif entry.type == "inproceedings" -%}
-            {%- capture entrytype -%}<em>{{entry.booktitle}}</em> {%- endcapture -%}
+            {%- capture entrytype -%}{{entry.booktitle}} {%- endcapture -%}
           {%- endif -%}
           {%- if entry.month -%}
             {%- capture entrymonth -%}{{ " " }}{{ entry.month | capitalize }}{%- endcapture -%}

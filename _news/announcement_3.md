@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2021-04-12
+date: 2022-03-01
 inline: true
 ---
 
-[David (Seungwon) Min](https://www.davidmin.net/) and I gave a [talk](https://www.nvidia.com/en-us/on-demand/session/gtcspring21-s32038/) at GTC 2021 on our [Pytorch-Direct](https://github.com/K-Wu/pytorch-direct_dgl) project!
+Techniques proposed in our [Pytorch-Direct](https://github.com/K-Wu/pytorch-direct_dgl) project is now available in DGL v0.8! Please check the CUDA UVA-based optimization in the [release note](https://github.com/dmlc/dgl/releases/tag/0.8.0).
 

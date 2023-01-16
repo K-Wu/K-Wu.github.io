@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2022-02-17
+date: 2021-08-02
 inline: true
 ---
 
-My patent proposal as the co-first author during HPE Internship in Summer 2021 was approved by internal review committee! Application filing pending.
+Findings in our [Pytorch-Direct](https://github.com/K-Wu/pytorch-direct_dgl) project led by [David (Seungwon) Min](https://www.davidmin.net/) have been merged to the DGL master branch! (PR [#3086](https://github.com/dmlc/dgl/pull/3086), [#3184](https://github.com/dmlc/dgl/pull/3184), [#3194](https://github.com/dmlc/dgl/pull/3194))
