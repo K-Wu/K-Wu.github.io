@@ -4,7 +4,7 @@ title: Projects
 permalink: /projects/
 description: A select collection of my research and intern projects in reverse chronological order.
 nav: true
-display_categories: [research, intern]
+display_categories: [research_leadership, research, intern]
 horizontal: false
 ---
 

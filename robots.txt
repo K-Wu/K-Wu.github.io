@@ -3,6 +3,7 @@ permalink: /robots.txt
 ---
 User-agent: *
 Disallow: /news/
+Disallow: /projects/research_leadership
 Disallow: /projects/research
 Disallow: /projects/intern
 

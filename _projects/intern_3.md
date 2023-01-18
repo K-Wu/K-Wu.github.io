@@ -6,7 +6,7 @@ description: |
  Manager and Mentor:: Dr. Dejan Milojicic and Dr. Sai Rahul Chalamalasetti
  · Investigated opportunities to accelerate operators from Intel DAOS distributed storage systems.
  · Findings accepted by proceedings of internal conference HPE TechCon 2022.
- · Patent proposal approved by HPE patent review committee.
+ · Pending U.S. patent.
 importance: 2
 category: intern
 ---
