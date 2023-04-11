@@ -3,12 +3,13 @@
 
 @string{aps = {American Physical Society,}}
 
-@misc{wu2023pigeon,
+@inproceedings{wu2023pigeon,
       title={PIGEON: Optimizing CUDA Code Generator for End-to-End Training and Inference of Relational Graph Neural Networks}, 
       author={Kun Wu and Mert Hidayetoğlu and Xiang Song and Sitao Huang and Da Zheng and Israt Nisa and Wen-mei Hwu},
       year={2023},
       eprint={2301.06284},
       archivePrefix={arXiv},
+      booktitle={arXiv preprint},
       primaryClass={cs.DC},
       paperlink = {https://arxiv.org/abs/2301.06284},
       abstract={Relational graph neural networks (RGNNs) are graph neural networks (GNNs) with dedicated structures for modeling the different types of nodes and/or edges in heterogeneous graphs. While RGNNs have been increasingly adopted in many real-world applications due to their versatility and accuracy, they pose performance and system design challenges due to their inherent computation patterns, gap between the programming interface and kernel APIs, and heavy programming efforts in optimizing kernels caused by their coupling with data layout and heterogeneity. To systematically address these challenges, we propose Pigeon, a novel two-level intermediate representation (IR) and its code generator framework, that (a) represents the key properties of the RGNN models to bridge the gap between the programming interface and kernel APIs, (b) decouples model semantics, data layout, and operators-specific optimization from each other to reduce programming efforts, (c) expresses and leverages optimization opportunities in inter-operator transforms, data layout, and operator-specific schedules. By building on one general matrix multiply (GEMM) template and a node/edge traversal template, Pigeon achieves up to 7.8x speed-up in inference and 5.6x speed-up in training compared with the state-of-the-art public systems in select models, i.e., RGCN, RGAT, HGT, when running heterogeneous graphs provided by Deep Graph Library (DGL) and Open Graph Benchmark (OGB). Pigeon also triggers fewer out-of-memory (OOM) errors. In addition, we propose linear operator fusion and compact materialization to further accelerate the system by up to 2.2x.},
