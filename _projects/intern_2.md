@@ -7,6 +7,6 @@ description: |
  · Worked on a prototypical LLVM backend compiler.
  · Designed and developed an extensible vectorization pass.
  · Designed and developed a Machine IR peephole optimizations driver.
-importance: 3
+importance: 4
 category: intern
 ---

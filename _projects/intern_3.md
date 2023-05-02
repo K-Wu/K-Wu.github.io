@@ -7,6 +7,6 @@ description: |
  · Investigated opportunities to accelerate operators from Intel DAOS distributed storage systems.
  · Findings accepted by proceedings of internal conference HPE TechCon 2022.
  · Pending U.S. patent.
-importance: 2
+importance: 3
 category: intern
 ---
