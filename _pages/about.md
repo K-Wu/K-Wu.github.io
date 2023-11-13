@@ -18,8 +18,10 @@ social: true  # includes social icons at the bottom of the page
 ---
 
 
-Kun is currently a fourth-year Ph.D. student at UIUC, advised by [Prof. Wen-mei Hwu](https://en.wikipedia.org/wiki/Wen-mei_Hwu). His research interest lies in compilers and libraries for graphics processing units and parallel computer architecture. He has contributed to several impactful projects, involving [PyTorch-Direct](https://github.com/K-Wu/pytorch-direct_dgl) and [Pylog](https://github.com/hst10/pylog).
+Kun is currently a fourth-year Ph.D. student at UIUC, advised by [Prof. Wen-mei Hwu](https://en.wikipedia.org/wiki/Wen-mei_Hwu). His research interest lies in compilers and libraries for graphics processing units and parallel computer architecture. He has contributed to several impactful projects, involving [PyTorch-Direct](https://github.com/K-Wu/pytorch-direct_dgl) and [Pylog](https://github.com/hst10/pylog). He also contributed to MLIR during his internship at the Google MLIR Sparsifier Team ([check my code here](https://reviews.llvm.org/p/K-Wu/)).
 
 Kun received his bachelor's degree in Electronic Engineering from Tsinghua University. Before that, he published one first-authored paper in Design Automation Conference under the supervision of [Prof. Yuan Xie](https://web.ece.ucsb.edu/~yuanxie/Personal.html) and [Prof. Yu Wang](http://nics.ee.tsinghua.edu.cn/people/wangyu/).
+
+Resume is available upon request.
 
 Want a talk with me? Feel free to send me an email :D My availability can be queried at the [published Outlook calendar](https://outlook.office365.com/calendar/published/92e7b86fb04446e6845888477b264fa8@illinois.edu/30a2e22ab4254515a138626eb10c5cca1829245686022576514/calendar.html).
