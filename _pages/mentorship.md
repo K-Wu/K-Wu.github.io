@@ -2,7 +2,7 @@
 layout: page
 permalink: /mentorship/
 title: Mentorship
-description: Projects and collaborations were definitely the major drive for excellence during my undergrad.
+description: Working on projects was the major way to grow my skills during my undergrad.
 nav: true
 ---
 

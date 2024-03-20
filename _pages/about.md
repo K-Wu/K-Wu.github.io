@@ -24,4 +24,4 @@ Kun received his bachelor's degree in Electronic Engineering from Tsinghua Unive
 
 Resume is available upon request.
 
-Want a talk with me? Feel free to send me an email :D My availability can be queried at the [published Outlook calendar](https://outlook.office365.com/calendar/published/92e7b86fb04446e6845888477b264fa8@illinois.edu/30a2e22ab4254515a138626eb10c5cca1829245686022576514/calendar.html).
+Wanna talk with me? Feel free to send me an email :D My availability can be queried at the [published Outlook calendar](https://outlook.office365.com/calendar/published/92e7b86fb04446e6845888477b264fa8@illinois.edu/30a2e22ab4254515a138626eb10c5cca1829245686022576514/calendar.html).
