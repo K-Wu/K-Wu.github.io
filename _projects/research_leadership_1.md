@@ -1,10 +1,11 @@
 ---
 layout: page
-title: "Hector: An Efficient Programming and Compilation Framework for Implementing Relational Graph Neural Networks in GPU Architectures"
+title: "Faster Large Language Model Training Using SSD-Based Activation Offloading"
 description: |
- · Proposed IR-based code generator to systematically bridge the gap between programming interface and kernel APIs, and decouples models, data layout, kernel-specific optimization from each other.
- · Achieves up to 9.9× speed-up in inference and 43.7× speed-up in training compared with public state-of-the-art system in RGCN, RGAT, HGT.
- · Proposed one inter-operator optimization and two intermediate data layout options to further accelerate the system to deliver up to 3.8× speed up.
+ · Designed and implemented the framework to offload activations in LLM training to NVMe SSDs.
+ · To overlap the data transfer fully with computation, several optimization techniques were introduced, including tensor deduplication, tensor forwarding, and adaptive offloading algorithm.
+ · Achieves almost the same training time per step as the original system without offloading while reducing the activations peak memory use by up to 47%.
+ · Introduced the recompute-offload-keep (ROK) curve to compare our offloading with two other tensor placement strategies, keeping activations in memory and layerwise full recomputation. 
 importance: 1
 category: research_leadership
 ---
