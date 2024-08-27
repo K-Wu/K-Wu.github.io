@@ -1,7 +1,6 @@
 ---
 layout: page
 title: "Erudite: A Low-Latency, High-Capacity, and High-efficiency Prototype System for Compu-tational Intelligence"
-enable_hyperlink: true
 first_author_link: http://impact.crhc.illinois.edu/Projects2.aspx?project=40
 description: |
  · Exploring flash memory systems and software stack innovations to unblock the memory capacity andbandwidth bottleneck and eliminate software overhead for data-intensive workload

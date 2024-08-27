@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Software Engineer Intern @ MSR Asia
+first_author_link: https://www.microsoft.com/en-us/research/project/aiops/
 description: |
  Software Analytics Group, Jan. 2019 -- July 2019
  Manager and Mentor:: Qingwei Lin, Bo Qiao
