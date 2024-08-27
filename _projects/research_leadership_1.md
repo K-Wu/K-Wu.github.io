@@ -1,6 +1,8 @@
 ---
 layout: page
 title: "Faster Large Language Model Training Using SSD-Based Activation Offloading"
+redirect: https://arxiv.org/abs/2408.10013
+enable_hyperlink: true
 description: |
  · Designed and implemented the framework to offload activations in LLM training to NVMe SSDs.
  · Demonstrated the viability on large-scale systems by modeling the performance, estimated SSD lifespan and the required per-GPU PCIe bandwidth.
