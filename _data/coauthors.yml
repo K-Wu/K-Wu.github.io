@@ -26,11 +26,19 @@
   - firstname: ["Jeongmin", "Jeongmin Brian", "J.", "J. B."]
     url: https://www.linkedin.com/in/brian-park-930418210/
 
+'Park*':
+  - firstname: ["Jeongmin", "Jeongmin Brian", "J.", "J. B."]
+    url: https://www.linkedin.com/in/brian-park-930418210/
+
 'Mailthody':
   - firstname: ["Vikram", "V.", "Vikram Sharma", "V. S."]
     url: https://msharmavikram.github.io/
 
 'Zhang':
+  - firstname: ["Xiaofan", "X.", "X. F."]
+    url: https://www.xiaofanzhang.net/
+
+'Zhang*':
   - firstname: ["Xiaofan", "X.", "X. F."]
     url: https://www.xiaofanzhang.net/
 
