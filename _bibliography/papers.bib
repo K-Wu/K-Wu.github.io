@@ -3,6 +3,18 @@
 
 @string{aps = {American Physical Society,}}
 
+@inproceedings{park2024lsmgnnlargescalestoragebasedmultigpu,
+      title={Large-scale Storage-based Multi-GPU GNN Training by Optimizing Data Transfer Scheme}, 
+      author={Jeongmin Brian Park and Kun Wu and Vikram Sharma Mailthody and Zaid Qureshi and Scott Mahlke and Wen-mei Hwu},
+      year={2024},
+      arxiv={2407.15264},
+      archivePrefix={arXiv},
+      primaryClass={cs.DC},
+      selected      = {true},
+      url={https://arxiv.org/abs/2407.15264}, 
+      abstract={Graph Neural Networks (GNNs) are widely used today in recommendation systems, fraud detection, and node/link classification tasks. Real world GNNs continue to scale in size and require a large memory footprint for storing graphs and embeddings that often exceed the memory capacities of the target GPUs used for training. To address limited memory capacities, traditional GNN training approaches use graph partitioning and sharding techniques to scale up across multiple GPUs within a node and/or scale out across multiple nodes. However, this approach suffers from the high computational costs of graph partitioning algorithms and inefficient communication across GPUs. To address these overheads, we propose Large-scale Storage-based Multi-GPU GNN framework (LSM-GNN), a storagebased approach to train GNN models that utilizes a novel communication layer enabling GPU software caches to function as a system-wide shared cache with low overheads.LSM-GNN incorporates a hybrid eviction policy that intelligently manages cache space by using both static and dynamic node information to significantly enhance cache performance. Furthermore, we introduce the Preemptive Victim-buffer Prefetcher (PVP), a mechanism for prefetching node feature data from a Victim Buffer located in CPU pinned-memory to further reduce the pressure on the storage devices. Experimental results show that despite the lower compute capabilities and memory capacities, LSM-GNN in a single node with two GPUs offers superior performance over two-node-four-GPU Dist-DGL baseline and provides up to 3.75x speed up on end-to-end epoch time while running large-scale GNN training}
+}
+
 @inproceedings{wu2024fasterlargelanguage,
   title         = {TBA: Faster Large Language Model Training Using SSD-Based Activation Offloading},
   author        = {Kun Wu* and Jeongmin Brian Park* and Xiaofan Zhang* and Mert Hidayetoğlu and Vikram Sharma Mailthody and Sitao Huang and Steven Sam Lumetta and Wen-mei Hwu},
