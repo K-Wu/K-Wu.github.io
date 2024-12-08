@@ -8,9 +8,8 @@ profile:
   align: right
   image: prof_pic.jpg
   address: >
-    <p>227 Coordinated Science Laboratory</p>
-    <p>1308 W Main St</p>
-    <p>Urbana, IL 61801</p>
+    <p>2788 San Tomas Expy</p>
+    <p>Santa Clara, CA 95051</p>
 
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
