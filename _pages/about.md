@@ -17,7 +17,7 @@ social: true  # includes social icons at the bottom of the page
 ---
 
 
-Kun Wu (吴昆) is currently a backend compiler engineer at NVIDIA. He received his Ph.D. degree from UIUC, advised by [Prof. Wen-mei Hwu](https://en.wikipedia.org/wiki/Wen-mei_Hwu). He has contributed to several impactful projects, involving [Hector](https://doi.org/10.1145/3620666.3651322), [PyTorch-Direct](https://github.com/K-Wu/pytorch-direct_dgl), and [Pylog](https://github.com/hst10/pylog). He also contributed to the [MLIR sparse tensor dialect](https://developers.google.com/mlir-sparsifier) during his internship at the Google MLIR Sparsifier Team [(Check commits here!)](https://github.com/search?q=repo%3Allvm%2Fllvm-project++author-email%3Akunww%40google.com&type=commits).
+Kun Wu (吴昆) is currently a backend compiler engineer at NVIDIA. He received his Ph.D. degree from UIUC, advised by [Prof. Wen-mei Hwu](https://en.wikipedia.org/wiki/Wen-mei_Hwu). He has contributed to several impactful projects, involving [Hector](https://doi.org/10.1145/3620666.3651322), [PyTorch-Direct](https://github.com/K-Wu/pytorch-direct_dgl), and [Pylog](https://github.com/hst10/pylog). He also contributed to the [MLIR sparse tensor dialect](https://developers.google.com/mlir-sparsifier) during his internship at the Google MLIR Sparsifier Team [(Check commits here!)](https://github.com/search?q=repo%3Allvm%2Fllvm-project++author%3AK-Wu&type=commits).
 
 During the undergrad program, Kun was under the supervision of [Prof. Yu Wang](http://nics.ee.tsinghua.edu.cn/people/wangyu/) and [Prof. Yuan Xie](https://web.ece.ucsb.edu/~yuanxie/Personal.html).
 
