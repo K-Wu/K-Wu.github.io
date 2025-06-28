@@ -1,10 +1,7 @@
----
-permalink: /robots.txt
----
 User-agent: *
 Disallow: /news/
 Disallow: /projects/research_leadership
 Disallow: /projects/research
 Disallow: /projects/intern
 
-Sitemap: {{ site.baseurl | prepend: site.url }}/sitemap.xml
+Sitemap: https://kunwu.me/sitemap.xml
